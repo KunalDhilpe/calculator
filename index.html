@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body class="body">
+    <h1>CALCULATOR</h1>
+
+    <!-- <span class ='history'>
+        <div class="btn-remove" onclick="removehistory()"></div>
+        <div class="historybox"></div>    -->
+
+    <!-- </span> -->
+
+    <div class="calc">
+        <span class='history'>
+            
+            <div class="btn-remove" onclick="removehistory()"></div>
+            <button class="button3" onclick="clearhistory('0')">X</button>
+            <div class="historybox">
+                
+            </div>
+            
+        </span>
+        <div></div>
+        <input class="textbox1" type="inputbox"><br>
+        <input class="textbox" type="inputbox" placeholder="0"><br>
+        <button class="button1" onclick="button('7')">7</button>
+        <button class="button1" onclick="button('8')">8</button>
+        <button class="button1" onclick="button('9')">9</button>
+        <button class="button2" onclick="button('+')">+</button><br>
+
+        <button class="button1" onclick="button('6')">6</button>
+        <button class="button1" onclick="button('5')">5</button>
+        <button class="button1" onclick="button('4')">4</button>
+        <button class="button2" onclick="button('-')">-</button><br>
+
+        <button class="button1" onclick="button('3')">3</button>
+        <button class="button1" onclick="button('2')">2</button>
+        <button class="button1" onclick="button('1')">1</button>
+        <button class="button2" onclick="button('*')">*</button><br>
+
+        <button class="button1" onclick="button('0')">0</button>
+        <button class="button1" onclick="button('00')">00</button>
+        <button class="button1" onclick="answer('')">=</button>
+        <button class="button2" onclick="button('/')">/</button><br>
+        <button class="button1" onclick="cl('0')">C</button>
+        <button class="button1" onclick="ce('0')">CE</button>
+
+        <button class="button1" onclick="box()">CH</button>
+
+
+        <button class="button1" onclick="history()">H</button>
+
+        <!-- <span class ='history'>
+            <div class="btn-remove" onclick="removehistory()"></div>
+            <div class="historybox"></div>    -->
+
+        </span>
+    </div>
+
+
+
+
+    </div>
+
+
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
